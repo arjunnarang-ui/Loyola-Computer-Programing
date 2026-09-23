@@ -17,4 +17,4 @@ print (flightLog)
 flightLog.insert (1, 4100)
 print (flightLog)
 #Printing the f string with a sentence using the flightlog variable.
-print (f"The flight log states that at the hight of {flightLog [2]}ft it was 2pm.")
+print (f"The flight log states that at the hight of {flightLog [2]}ft at 2pm.")
