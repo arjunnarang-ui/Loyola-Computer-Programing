@@ -3,7 +3,7 @@
 #9/18/2026
 playList = ["I got a love", "Rather Lie", "Take me (To the moon)", "GASS"]
 newSong = input("Please input a song: ")
-newSong.title().strip()
+newSong = newSong.title().strip()
 playList.append (newSong)
 print (len(playList))
 playList.insert (0, "Love")
